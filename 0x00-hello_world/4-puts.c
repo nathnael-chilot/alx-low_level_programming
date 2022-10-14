@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-/**
- * function using puts
+/** main - entry point
+ * Return: Always 0 (success)
  */
 
 int main(void)
