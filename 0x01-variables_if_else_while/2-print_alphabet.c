@@ -4,20 +4,18 @@
  * main - entry point
  *
  * Return: 0 if success
- *
  */
 
 int main(void)
 {
-	char ch = 'a';
+	char ch;
+	for (ch = 'a'; ch <= 'z'; ch++)
 
-	while(ch <= 'z')
 	{
 		putchar(ch);
-		ch++;
 	}
 
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 }
