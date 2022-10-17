@@ -9,15 +9,15 @@
 
 int main(void)
 {
-	int n;
+	char ch;
 
-	for (n = 0; n < 10; n++)
+	for (ch = '0'; ch < '10'; ch++)
 	{
-		printf(n);
+		putchar(ch);
 	}
 
-	printf('\n');
+	putchar('\n');
 
-	return (0);
+	return 0;
 
 }
