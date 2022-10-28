@@ -2,7 +2,7 @@
 /**
  * reverse_array - revereses an array.
  * @a: pointer to array.
- * @a: pointer to array.
+ * @n: the number of elements to swap
  *
  * Return: void
  */
